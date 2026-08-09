@@ -1,0 +1,163 @@
+<!-- TEMPLATE -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+     <link rel="icon" href="../assets/icons/m.ico" />
+     <title>Project Name | miguelsrz's Portfolio</title>
+    <meta name="description" content="A portfolio template for the Unemployables community.">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+              heading: ['Sora', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+            },
+          },
+        },
+      }
+    </script>
+
+    <style>
+      html { text-size-adjust: none; -webkit-text-size-adjust: none; -moz-text-size-adjust: none; -ms-text-size-adjust: none; }
+    </style>
+
+		<script defer src="../js/script.js"></script>
+	</head>
+
+	<body class="m-0 font-sans antialiased min-h-screen text-white bg-gradient-to-b from-emerald-950 via-gray-950 to-black">
+    <!-- NAVBAR -->
+    <nav class="navbar fixed top-0 left-0 z-50 w-full flex justify-center py-4 border-b transition-all duration-300 bg-transparent border-transparent">
+      <div class="flex justify-between items-center w-full mx-5 sm:mx-8 md:mx-12 lg:mx-20 xl:mx-32 2xl:mx-[425px]">
+        <a class="text-white no-underline transition-colors duration-200 hover:text-blue-500" href="../index.html">
+        <span class="font-heading font-bold text-xl sm:text-2xl">./ miguelsrz's Portfolio</span>
+        </a>
+        <a class="inline-flex items-center gap-[5px] w-fit px-4 py-2 border-2 border-white/70 rounded-full text-white no-underline transition-colors duration-200 hover:bg-blue-500 hover:border-blue-500" href="https://www.linkedin.com/in/miguelsrz" target="_blank">
+          <span class="text-sm font-bold">Contact Me</span>
+        </a>
+      </div>
+      
+    </nav>
+
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content" class="flex flex-col gap-16 mx-5 pt-24 pb-16 sm:mx-8 sm:pt-24 sm:pb-20 md:mx-12 md:pt-28 md:pb-24 lg:mx-20 lg:pt-32 lg:pb-28 xl:mx-32 xl:pt-36 xl:pb-32 xl:gap-24 2xl:mx-[425px] 2xl:pt-40 2xl:pb-36">
+
+      <!-- PROJECT HEADER -->
+      <header id="project-header" class="flex flex-col md:flex-row gap-8 md:gap-12 items-center">
+        <div id="project-header-image-container" class="w-full md:basis-1/2 flex flex-col gap-[10px]">
+          <!-- 
+            TODO
+
+            - Change "desktop.jpeg" to the image filename you uploaded in the assets/images folder.
+          -->
+          <img src="../assets/images/desktop.jpeg" class="w-full h-auto">
+          <span class="text-sm font-medium text-white/80 select-none">______________________________________</span>
+        </div>
+
+          <!-- 
+            TODO
+
+            - Change the title text to the name of your project
+            - Change the description text below it to a short and sweet description of your project (maybe the same as the one on the project card)
+            - Point "Visit Site" at the project's live URL
+          -->
+        <div class="w-full md:basis-1/2 flex flex-col gap-[34px]">
+          <div class="flex flex-col gap-[34px]">
+            <span class="inline-block w-fit font-heading text-3xl sm:text-4xl md:text-5xl font-bold pb-2 border-b-4 [border-image:linear-gradient(to_right,#2563eb,#60a5fa)_1]">Project Name</span>
+            <div class="text-base font-medium text-white/80">A small description about the project goes here, get the reader hooked on the project and tell them why they should continue to read this page. Give it a sweet tagline.</div>
+          </div>
+          <div class="flex flex-wrap gap-4">
+            <a class="inline-flex items-center gap-[5px] w-fit px-4 py-2 border-2 border-white/70 rounded-full text-white no-underline transition-colors duration-200 hover:bg-blue-500 hover:border-blue-500" href="../index.html#my-work-section">
+              <span class="text-sm font-bold">Visit Repository</span>
+              <image src="../assets/icons/repository.svg" class="w-4 h-4 mt-px invert rotate-180"/>
+            </a>
+            <a class="inline-flex items-center gap-[5px] w-fit px-4 py-2 border-2 border-white/70 rounded-full text-white no-underline transition-colors duration-200 hover:bg-blue-500 hover:border-blue-500" href="../index.html#my-work-section">
+              <image src="../assets/icons/arrow-right.svg" class="w-4 h-4 mt-px invert rotate-180"/>
+              <span class="text-sm font-bold">Back to Projects</span>
+            </a>
+          </div>
+        </div>
+      </header>
+
+      <!-- PROJECT DETAILS -->
+      <div id="project-details" class="flex flex-col gap-6">
+        <span class="inline-block w-fit font-heading text-3xl font-bold pb-2 border-b-4 [border-image:linear-gradient(to_right,#2563eb,#60a5fa)_1]">Project Details</span>
+        <div class="flex flex-col gap-[34px]">
+          <div class="text-base font-medium text-white/80">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique risus nec feugiat in fermentum. Sed id semper risus in hendrerit gravida. Placerat duis ultricies lacus sed. Id neque aliquam vestibulum morbi blandit cursus risus. Elit pellentesque habitant morbi tristique senectus et netus et. Elementum tempus egestas sed sed risus pretium quam. Nibh ipsum consequat nisl vel pretium lectus quam id leo. Vitae congue mauris rhoncus aenean vel elit.</div>
+          <div class="text-base font-medium text-white/80">Vitae justo eget magna fermentum. Imperdiet nulla malesuada pellentesque elit eget gravida. Aliquet nec ullamcorper sit amet. Aliquet sagittis id consectetur purus. Ac tortor dignissim convallis aenean. Enim neque volutpat ac tincidunt vitae. Lobortis feugiat vivamus at augue. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Viverra orci sagittis eu volutpat. Massa tincidunt nunc pulvinar sapien et ligula. Donec enim diam vulputate ut.</div>
+        </div>
+      </div>
+
+      <!-- IMAGE GALLERY -->
+      <div id="project-gallery" class="flex flex-col gap-6">
+        <!-- TODO - Change the section title to whatever you want the Gallery section header to say -->
+        <span class="inline-block w-fit font-heading text-3xl font-bold pb-2 border-b-4 [border-image:linear-gradient(to_right,#2563eb,#60a5fa)_1]">Image Gallery</span>
+        <div class="flex flex-wrap gap-x-4 gap-y-[34px]">
+            <!-- 
+              TODO
+
+              Full Width Image:
+
+                <div class="flex flex-col gap-[10px] w-full">
+                  <img src="../assets/images/IMAGE_NAME" class="w-full h-auto rounded-md">
+                  <span class="text-sm font-medium text-white/70">IMAGE_CAPTION</span>
+                </div>
+
+              Half Width Image: 
+
+                <div class="flex flex-col gap-[10px] w-full sm:w-[calc((100%-16px)/2)]">
+                  <img src="../assets/images/IMAGE_NAME" class="w-full h-auto rounded-md">
+                  <span class="text-sm font-medium text-white/70">IMAGE_CAPTION</span>
+                </div>
+
+              - To add an image to the this area, copy one of the above, paste it below this comment, and change the following:
+                  - IMAGE_NAME: the name of the image file in assets/images
+                  - IMAGE_CAPTION: to the caption of the image
+            -->
+            <div class="flex flex-col gap-[10px] w-full sm:w-[calc((100%-16px)/2)]">
+              <img src="../assets/images/code.jpeg" class="w-full h-auto rounded-md">
+              <span class="text-sm font-medium text-white/70">Give your image a caption. People love context.</span>
+            </div>
+            <div class="flex flex-col gap-[10px] w-full sm:w-[calc((100%-16px)/2)]">
+              <img src="../assets/images/sketchbook.jpeg" class="w-full h-auto rounded-md">
+              <span class="text-sm font-medium text-white/70">Give your image a caption. People love context.</span>
+            </div>
+            <div class="flex flex-col gap-[10px] w-full">
+              <img src="../assets/images/camera.jpeg" class="w-full h-auto rounded-md">
+              <span class="text-sm font-medium text-white/70">Give your image a caption. People love context.</span>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="w-full text-center text-xs text-white/40 pb-6">
+      Inspired by <a href="https://github.com/ndoherty-xyz/unemployables-portfolio-template" target="_blank" class="text-blue-500/80 no-underline hover:text-blue-300 hover:underline">ndoherty-xyz</a>
+    </div>
+
+    <!-- FOOTER -->
+    <footer id="footer" class="w-full flex justify-center items-center gap-4 px-5 py-6 sm:px-8 md:px-12 backdrop-blur-md bg-black/60 border-t border-white/10">
+      <a class="icon-link inline-flex p-2 rounded-full transition-colors duration-200 hover:bg-white/10" target="_blank" href="https://github.com/miguelsrz">
+        <image src="../assets/icons/github.svg" class="w-5 h-5 invert"/>
+      </a>
+      <a class="icon-link inline-flex p-2 rounded-full transition-colors duration-200 hover:bg-white/10" target="_blank" href="https://www.linkedin.com/in/miguelsrz/">
+        <image src="../assets/icons/linkedin.svg" class="w-5 h-5 invert"/>
+      </a>
+      <a class="icon-link inline-flex p-2 rounded-full transition-colors duration-200 hover:bg-white/10" href="https://www.linkedin.com/in/miguelsrz/">
+        <image src="../assets/icons/repository.svg" class="w-5 h-5 invert"/>
+      </a>
+    </footer>
+
+	</body>
+</html>

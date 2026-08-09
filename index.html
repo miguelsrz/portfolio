@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+    <link rel="icon" href="./assets/icons/m.ico" />
+		<title>Hey! | miguelsrz's Portfolio</title>
+    <meta name="description" content="A portfolio template for the Unemployables community.">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+              heading: ['Sora', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+            },
+          },
+        },
+      }
+    </script>
+
+    <style>
+      html { text-size-adjust: none; -webkit-text-size-adjust: none; -moz-text-size-adjust: none; -ms-text-size-adjust: none; }
+    </style>
+
+		<script defer src="./js/script.js"></script>
+	</head>
+
+	<body class="m-0 font-sans antialiased min-h-screen text-white bg-gradient-to-b from-zinc-950 via-slate-950 to-black">
+    <!-- NAVBAR -->
+    <nav class="navbar fixed top-0 left-0 z-50 w-full flex justify-center py-4 border-b transition-all duration-300 bg-transparent border-transparent">
+      <div class="flex justify-between items-center w-full mx-5 sm:mx-8 md:mx-12 lg:mx-20 xl:mx-32 2xl:mx-[425px]">
+        <a class="text-white no-underline transition-colors duration-200 hover:text-blue-500" href="./index.html">
+        <span class="font-heading font-bold text-xl sm:text-2xl">./ miguelsrz's Portfolio</span>
+        <a class="inline-flex items-center gap-[5px] w-fit px-4 py-2 border-2 border-white/70 rounded-full text-white no-underline transition-colors duration-200 hover:bg-blue-500 hover:border-blue-500" href="https://www.linkedin.com/in/miguelsrz" target="_blank">
+          <span class="text-sm font-bold">Contact Me</span>
+        </a>
+      </a>
+      </div>
+      
+    </nav>
+
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content" class="flex flex-col gap-16 mx-5 pt-24 pb-16 sm:mx-8 sm:pt-24 sm:pb-20 md:mx-12 md:pt-28 md:pb-24 lg:mx-20 lg:pt-32 lg:pb-28 xl:mx-32 xl:pt-36 xl:pb-32 xl:gap-24 2xl:mx-[425px] 2xl:pt-40 2xl:pb-36">
+
+      <!-- PORTFOLIO HEADER -->
+      <header id="portfolio-header" class="flex flex-col md:flex-row gap-8 md:gap-12 items-center">
+        <div id="portfolio-header-image-container" class="w-full md:basis-1/2 flex flex-col gap-[10px]">
+          <img src="./assets/images/foto_perfil.jpg" class="w-full h-auto">
+            <span class="text-sm font-medium text-white/80 select-none">______________________________________</span>
+        </div>
+        <div id="portfolio-header-text-container" class="w-full md:basis-1/2 flex flex-col gap-[34px]">
+            <div class="flex flex-col gap-[34px]">
+              <span class="inline-block w-fit font-heading text-3xl sm:text-4xl md:text-5xl font-bold pb-2 border-b-4 [border-image:linear-gradient(to_right,#2563eb,#60a5fa)_1] leading-8">
+                Hey!, I'm
+                <a href="https://github.com/miguelsrz" target="_blank" class="text-blue-400 no-underline hover:underline decoration-2 underline-offset-4 select-text">Miguel Suárez</a>.
+              </span>
+              <div class="text-base font-medium text-white/80">Computer Systems Engineering student at Universidad Nacional de Colombia. Practicing, learning, and building projects of all kinds with a growing focus on web development and cybersecurity.</div>
+            </div>
+            <div class="flex flex-wrap gap-4">
+              <a class="cursor-pointer inline-flex items-center gap-[12px] w-fit px-4 py-2 border-2 border-white/70 rounded-full text-white no-underline transition-colors duration-200 hover:bg-blue-500 hover:border-blue-500" id="my-work-link">
+               <span class="text-sm font-bold">Check out my projects</span> 
+               <image src="./assets/icons/arrow-right.svg" class="w-5 h-5 mt-px invert rotate-90"/>
+              </a>
+              <a class="icon-link inline-flex p-2 rounded-full transition-colors duration-200 hover:bg-white/10" target="_blank" href="https://github.com/miguelsrz">
+              <image src="./assets/icons/github.svg" class="w-8 invert"/>
+              </a>
+              <a class="icon-link inline-flex p-2 rounded-full transition-colors duration-200 hover:bg-white/10" target="_blank" href="https://www.linkedin.com/in/miguelsrz/">
+                <image src="./assets/icons/linkedin.svg" class="w-8 invert"/>
+              </a>
+              <a class="icon-link inline-flex p-2 rounded-full transition-colors duration-200 hover:bg-white/10" href="https://github.com/miguelsrz" target="_blank">
+                <image src="./assets/icons/repository.svg" class="w-9 invert"/>
+              </a>
+            </div>
+
+        </div>
+        
+      </header>
+
+      <!-- ABOUT ME -->
+      <div id="about-section" class="flex flex-col gap-6">
+        <span class="inline-block w-fit font-heading text-3xl font-bold pb-2 border-b-4 [border-image:linear-gradient(to_right,#2563eb,#60a5fa)_1]">About Me</span>
+        <div class="flex flex-col gap-[34px]">
+          <div class="text-base font-medium text-white/80">
+            I'm a Systems Engineering student at Universidad Nacional de Colombia. I love programming, especially interested in web development and cybersecurity and I have been learning and practicing these areas through personal projects, online courses, and challenges through highschool and university. From cryptography to data structures to full-stack apps as a team and by myself. I enjoy the process of figuring out the requirements, designing, coding and understanding how it actually works.
+          
+          </div>
+          <div class="text-base font-medium text-white/80">
+            Skilled in both frontend (JavaScript, React.js and Tailwind) and backend technologies (Node.js and Python) with knowledge and practice on cloud services (AWS), database management and version control (Git). I am always looking for new opportunities to grow and improve my skills.
+            My goal going forward is to start supporting and contributing to real projects and jobs, taking what I've practiced on my own and putting it to where it actually matters.
+          </div>
+        </div>
+
+      </div>
+
+      <!-- PROJECTS -->
+      <div id="my-work-section" class="flex flex-col gap-6">
+        <span class="inline-block w-fit font-heading text-3xl font-bold pb-2 border-b-4 [border-image:linear-gradient(to_right,#2563eb,#60a5fa)_1]">My Projects</span>
+
+        <div class="flex flex-wrap gap-x-4 gap-y-[34px]">
+
+          <div class="overflow-hidden rounded-md group flex flex-col min-h-[480px] w-full sm:w-[calc((100%-16px)/2)] lg:w-[calc((100%-32px)/3)] bg-pink-950 border border-white/20 transition-colors duration-300 hover:border-blue-600">
+            <div class="overflow-hidden">
+              <img src="./assets/images/desktop.jpeg" class="w-full h-[260px] object-cover object-center">
+            </div>
+            <div class="p-8 flex flex-col justify-between gap-6 flex-1">
+              <div class="flex flex-col gap-4">
+                <div class="font-heading text-xl font-bold line-clamp-1 transition-colors duration-200 group-hover:text-blue-400">FOCUS</div>
+                <div class="text-base font-medium text-white/80 line-clamp-4"> 
+                  A learning platform and a financial management tool to address the lack of financial education and management skills among first-semester undergraduate students.
+                </div>
+                <!-- 
+                  TODO - Tech stack badges. Copy/paste the <span> as many times as you need per card,
+                  the row wraps automatically so it never breaks the layout.
+                -->
+                <div class="flex flex-wrap gap-2">
+                  <span class="px-3 py-1 rounded-full bg-white/10 border border-white/10 text-xs font-medium text-white/70">React</span>
+                  <span class="px-3 py-1 rounded-full bg-white/10 border border-white/10 text-xs font-medium text-white/70">Tailwind</span>
+                  <span class="px-3 py-1 rounded-full bg-white/10 border border-white/10 text-xs font-medium text-white/70">Node.js</span>
+                  <span class="px-3 py-1 rounded-full bg-white/10 border border-white/10 text-xs font-medium text-white/70">MySQL</span>
+                  <span class="px-3 py-1 rounded-full bg-white/10 border border-white/10 text-xs font-medium text-white/70">AWS EC2</span>
+                  <span class="px-3 py-1 rounded-full bg-white/10 border border-white/10 text-xs font-medium text-white/70">AWS RDS</span>
+                </div>
+              </div>
+              <div class="flex flex-wrap gap-3">
+                <a class="inline-flex items-center gap-[5px] w-fit px-4 py-2 border-2 border-white/70 rounded-full text-white no-underline transition-colors duration-200 hover:bg-blue-500 hover:border-blue-500" href="https://github.com/miguelsrz/focus" target="_blank">
+                  <span class="text-sm font-bold">Repository</span>
+                  <image src="./assets/icons/repository.svg" class="w-5 h-5 mt-px invert"/>
+                </a>
+                <a class="inline-flex items-center gap-[5px] w-fit px-4 py-2 border-2 border-blue-400 rounded-full text-blue-400 no-underline transition-colors duration-200 hover:bg-blue-500 hover:text-white" href="https://focus-example.com" target="_blank">
+                  <span class="text-sm font-bold">Visit Website</span>
+                </a>
+              </div>
+            </div>
+            
+          </div>
+
+          <div class="overflow-hidden rounded-md group flex flex-col min-h-[480px] w-full sm:w-[calc((100%-16px)/2)] lg:w-[calc((100%-32px)/3)] bg-violet-950/70 border border-white/20 transition-colors duration-300 hover:border-blue-600">
+            <div class="overflow-hidden">
+              <img src="./assets/images/desktop.jpeg" class="w-full h-[260px] object-cover object-center">
+            </div>
+            <div class="p-8 flex flex-col justify-between gap-6 flex-1">
+              <div class="flex flex-col gap-4">
+                <div class="font-heading text-xl font-bold line-clamp-1 transition-colors duration-200 group-hover:text-blue-400">CRYPTOLAB</div>
+                <div class="text-base font-medium text-white/80 line-clamp-4"> 
+                  An interactive learning platform for cryptographic methods related to discrete mathematics, allowing users to generate keys and encrypt and decrypt data step by step.                </div>
+                <div class="flex flex-wrap gap-2">
+                  <span class="px-3 py-1 rounded-full bg-white/10 border border-white/10 text-xs font-medium text-white/70">JavaScript</span>
+                  <span class="px-3 py-1 rounded-full bg-white/10 border border-white/10 text-xs font-medium text-white/70">Python</span>
+                  <span class="px-3 py-1 rounded-full bg-white/10 border border-white/10 text-xs font-medium text-white/70">AWS S3</span>
+                  <span class="px-3 py-1 rounded-full bg-white/10 border border-white/10 text-xs font-medium text-white/70">AWS API Gateway</span>
+                  <span class="px-3 py-1 rounded-full bg-white/10 border border-white/10 text-xs font-medium text-white/70">AWS Lambda</span>
+                  
+                </div>
+              </div>
+              <div class="flex flex-wrap gap-3">
+                <a class="inline-flex items-center gap-[5px] w-fit px-4 py-2 border-2 border-white/70 rounded-full text-white no-underline transition-colors duration-200 hover:bg-blue-500 hover:border-blue-500" href="https://github.com/miguelsrz/cryptolab" target="_blank">
+                  <span class="text-sm font-bold">Repository</span>
+                  <image src="./assets/icons/repository.svg" class="w-5 h-5 mt-px invert"/>
+                </a>
+                <a class="inline-flex items-center gap-[5px] w-fit px-4 py-2 border-2 border-blue-400 rounded-full text-blue-400 no-underline transition-colors duration-200 hover:bg-blue-500 hover:text-white" href="https://cryptolab.miguelsrz.com" target="_blank">
+                  <span class="text-sm font-bold">Visit Website</span>
+                </a>
+              </div>
+            </div>
+            
+          </div>
+    
+          <div class="overflow-hidden rounded-md group flex flex-col min-h-[480px] w-full sm:w-[calc((100%-16px)/2)] lg:w-[calc((100%-32px)/3)] bg-amber-950/70 border border-white/20 transition-colors duration-300 hover:border-blue-600">
+            <div class="overflow-hidden">
+              <img src="./assets/images/desktop.jpeg" class="w-full h-[260px] object-cover object-center">
+            </div>
+            <div class="p-8 flex flex-col justify-between gap-6 flex-1">
+              <div class="flex flex-col gap-4">
+                <div class="font-heading text-xl font-bold line-clamp-1 transition-colors duration-200 group-hover:text-blue-400">REDSUA</div>
+                <div class="text-base font-medium text-white/80 line-clamp-4"> 
+                  Economic feasibility simulator for photovoltaic projects in the department of Cundinamarca, Colombia, applying concepts of economic engineering with AI recommendations.
+                </div>
+                <div class="flex flex-wrap gap-2">
+                 <span class="px-3 py-1 rounded-full bg-white/10 border border-white/10 text-xs font-medium text-white/70">Python</span>
+                  <span class="px-3 py-1 rounded-full bg-white/10 border border-white/10 text-xs font-medium text-white/70">Gemini API</span>
+                  <span class="px-3 py-1 rounded-full bg-white/10 border border-white/10 text-xs font-medium text-white/70">AWS S3</span>
+                  <span class="px-3 py-1 rounded-full bg-white/10 border border-white/10 text-xs font-medium text-white/70">AWS API Gateway</span>
+                  <span class="px-3 py-1 rounded-full bg-white/10 border border-white/10 text-xs font-medium text-white/70">AWS Lambda</span>
+                </div>
+              </div>
+              <div class="flex flex-wrap gap-3">
+                <a class="inline-flex items-center gap-[5px] w-fit px-4 py-2 border-2 border-white/70 rounded-full text-white no-underline transition-colors duration-200 hover:bg-blue-500 hover:border-blue-500" href="https://github.com/miguelsrz/redsua" target="_blank">
+                  <span class="text-sm font-bold">Repository</span>
+                  <image src="./assets/icons/repository.svg" class="w-5 h-5 mt-px invert"/>
+                </a>
+                <a class="inline-flex items-center gap-[5px] w-fit px-4 py-2 border-2 border-blue-400 rounded-full text-blue-400 no-underline transition-colors duration-200 hover:bg-blue-500 hover:text-white" href="https://redsua.co" target="_blank">
+                  <span class="text-sm font-bold">Visit Website</span>
+                </a>
+              </div>
+            </div>
+            
+          </div>
+          
+          <div class="overflow-hidden rounded-md group flex flex-col min-h-[480px] w-full sm:w-[calc((100%-16px)/2)] lg:w-[calc((100%-32px)/3)] bg-zinc-900 border border-white/20 transition-colors duration-300 hover:border-blue-600">
+            <div class="overflow-hidden">
+              <img src="./assets/images/desktop.jpeg" class="w-full h-[260px] object-cover object-center">
+            </div>
+            <div class="p-8 flex flex-col justify-between gap-6 flex-1">
+              <div class="flex flex-col gap-4">
+                <div class="font-heading text-xl font-bold line-clamp-1 transition-colors duration-200 group-hover:text-blue-400">TRIAGE/STATE EMERGENCY</div>
+                <div class="text-base font-medium text-white/80 line-clamp-4"> 
+                  A system for managing emergency medical cases, allowing healthcare professionals to optimally prioritize and track patient information in real-time.
+                </div>
+                <div class="flex flex-wrap gap-2">
+                  <span class="px-3 py-1 rounded-full bg-white/10 border border-white/10 text-xs font-medium text-white/70">Java</span>
+                  <span class="px-3 py-1 rounded-full bg-white/10 border border-white/10 text-xs font-medium text-white/70">Java Swing</span>
+                  <span class="px-3 py-1 rounded-full bg-white/10 border border-white/10 text-xs font-medium text-white/70">Data Structures</span>
+                  <span class="px-3 py-1 rounded-full bg-white/10 border border-white/10 text-xs font-medium text-white/70">Benchmarking</span>
+                </div>
+              </div>
+              <div class="flex flex-wrap gap-3">
+                <a class="inline-flex items-center gap-[5px] w-fit px-4 py-2 border-2 border-white/70 rounded-full text-white no-underline transition-colors duration-200 hover:bg-blue-500 hover:border-blue-500" href="https://github.com/JulrR0d/Proyecto_Estructuras_de_Datos" target="_blank">
+                  <span class="text-sm font-bold">Repository</span>
+                  <image src="./assets/icons/repository.svg" class="w-5 h-5 mt-px invert"/>
+                </a>
+                <a class="inline-flex items-center gap-[5px] w-fit px-4 py-2 border-2 border-blue-400 rounded-full text-blue-400 no-underline transition-colors duration-200 hover:bg-blue-500 hover:text-white" href="./project-pages/project-template.html">
+                  <span class="text-sm font-bold">Documentation</span>
+                </a>
+              </div>
+            </div>
+            
+          </div>
+
+           <div class="overflow-hidden rounded-md group flex flex-col min-h-[480px] w-full sm:w-[calc((100%-16px)/2)] lg:w-[calc((100%-32px)/3)] bg-sky-950 border border-white/20 transition-colors duration-300 hover:border-blue-600">
+            <div class="overflow-hidden">
+              <img src="./assets/images/desktop.jpeg" class="w-full h-[260px] object-cover object-center">
+            </div>
+            <div class="p-8 flex flex-col justify-between gap-6 flex-1">
+              <div class="flex flex-col gap-4">
+                <div class="font-heading text-xl font-bold line-clamp-1 transition-colors duration-200 group-hover:text-blue-400">MUSCLEMIND</div>
+                <div class="text-base font-medium text-white/80 line-clamp-4"> 
+                  A Java application for creating and viewing exercise routines, logging workouts, and reviewing history through the use of personal accounts.
+                </div>
+                <div class="flex flex-wrap gap-2">
+                  <span class="px-3 py-1 rounded-full bg-white/10 border border-white/10 text-xs font-medium text-white/70">Java</span>
+                  <span class="px-3 py-1 rounded-full bg-white/10 border border-white/10 text-xs font-medium text-white/70">Java Swing</span>
+                  <span class="px-3 py-1 rounded-full bg-white/10 border border-white/10 text-xs font-medium text-white/70">Object Oriented Programming</span>
+                </div>
+              </div>
+              <div class="flex flex-wrap gap-3">
+                <a class="inline-flex items-center gap-[5px] w-fit px-4 py-2 border-2 border-white/70 rounded-full text-white no-underline transition-colors duration-200 hover:bg-blue-500 hover:border-blue-500" href="https://github.com/miguelsrz/musclemind" target="_blank">
+                  <span class="text-sm font-bold">Repository</span>
+                  <image src="./assets/icons/repository.svg" class="w-5 h-5 mt-px invert"/>
+                </a>
+                <a class="inline-flex items-center gap-[5px] w-fit px-4 py-2 border-2 border-blue-400 rounded-full text-blue-400 no-underline transition-colors duration-200 hover:bg-blue-500 hover:text-white" href="./project-pages/project-template.html">
+                  <span class="text-sm font-bold">Documentation</span>
+                </a>
+              </div>
+            </div>
+            
+          </div>
+
+          <div class="overflow-hidden rounded-md group flex flex-col min-h-[480px] w-full sm:w-[calc((100%-16px)/2)] lg:w-[calc((100%-32px)/3)] bg-emerald-950 border border-white/20 transition-colors duration-300 hover:border-blue-600">
+            <div class="overflow-hidden">
+              <img src="./assets/images/desktop.jpeg" class="w-full h-[260px] object-cover object-center">
+            </div>
+            <div class="p-8 flex flex-col justify-between gap-6 flex-1">
+              <div class="flex flex-col gap-4">
+                <div class="font-heading text-xl font-bold line-clamp-1 transition-colors duration-200 group-hover:text-blue-400">RELATIONAL DATABASE</div>
+                <div class="text-base font-medium text-white/80 line-clamp-4"> 
+                  Conceptualization, design, modeling, and implementation of a relational database applied to a real-world context, including the creation of appropriate roles and functions.
+                </div>
+                <div class="flex flex-wrap gap-2">
+                  <span class="px-3 py-1 rounded-full bg-white/10 border border-white/10 text-xs font-medium text-white/70">MySQL</span>
+                  <span class="px-3 py-1 rounded-full bg-white/10 border border-white/10 text-xs font-medium text-white/70">ER Model</span>
+                  <span class="px-3 py-1 rounded-full bg-white/10 border border-white/10 text-xs font-medium text-white/70">Relational Model</span>
+                </div>
+              </div>
+              <div class="flex flex-wrap gap-3">
+                <a class="inline-flex items-center gap-[5px] w-fit px-4 py-2 border-2 border-white/70 rounded-full text-white no-underline transition-colors duration-200 hover:bg-blue-500 hover:border-blue-500" href="https://github.com/miguelsrz/relationaldatabase" target="_blank">
+                  <span class="text-sm font-bold">Repository</span>
+                  <image src="./assets/icons/repository.svg" class="w-5 h-5 mt-px invert"/>
+                </a>
+                <a class="inline-flex items-center gap-[5px] w-fit px-4 py-2 border-2 border-blue-400 rounded-full text-blue-400 no-underline transition-colors duration-200 hover:bg-blue-500 hover:text-white" href="./project-pages/project-template.html">
+                  <span class="text-sm font-bold">Documentation</span>
+                </a>
+              </div>
+            </div>
+            
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- CREDITS -->
+    <div class="w-full text-center text-xs text-white/40 pb-6">
+      Inspired by <a href="https://github.com/ndoherty-xyz/unemployables-portfolio-template" target="_blank" class="text-blue-500/80 no-underline hover:text-blue-300 hover:underline">ndoherty-xyz</a>
+    </div>
+
+    <!-- FOOTER -->
+    <footer id="footer" class="w-full flex justify-center items-center gap-4 px-5 py-6 sm:px-8 md:px-12 backdrop-blur-md bg-black/60 border-t border-white/10">
+      <a class="icon-link inline-flex p-2 rounded-full transition-colors duration-200 hover:bg-white/10" target="_blank" href="https://github.com/miguelsrz">
+        <image src="./assets/icons/github.svg" class="w-5 h-5 invert"/>
+      </a>
+      <a class="icon-link inline-flex p-2 rounded-full transition-colors duration-200 hover:bg-white/10" target="_blank" href="https://www.linkedin.com/in/miguelsrz/">
+        <image src="./assets/icons/linkedin.svg" class="w-5 h-5 invert"/>
+      </a>
+      <a class="icon-link inline-flex p-2 rounded-full transition-colors duration-200 hover:bg-white/10" target="_blank" href="https://www.github.com/miguelsrz">
+        <image src="./assets/icons/repository.svg" class="w-5 h-5 invert"/>
+      </a>
+    </footer>
+
+	</body>
+</html>
